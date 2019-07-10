@@ -5,11 +5,7 @@ Information about superhero movies
 
 ------
 
-![index'One](https://github.com/MeetYifan/HeroMovie/blob/master/static/preview/Screenshot_20190710-230255_WeChat.jpg)
-
-![indexTwo](https://github.com/MeetYifan/HeroMovie/blob/master/static/preview/Screenshot_20190710-230302_WeChat.jpg)
-
-![movieDetail](https://github.com/MeetYifan/HeroMovie/blob/master/static/preview/Screenshot_20190710-230814_WeChat.jpg)
+![index'One](https://github.com/MeetYifan/HeroMovie/blob/master/static/preview/preview.png)
 
 - 基于uni-app，flex布局
 - 使用的部分组件：swiper / scroll / navigator / video
