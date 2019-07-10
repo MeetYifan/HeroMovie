@@ -1,0 +1,28 @@
+
+.movieScore {
+	width: 200rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 6rpx 0;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.starIcon {
+	width: 20rpx;
+	height: 20rpx;
+}
+.scoreNum {
+	font-size: 20rpx;
+	color: grey;
+	margin-left: 8rpx;
+}
+

@@ -1,0 +1,45 @@
+.me-header{
+	/* #ifdef MP */
+	padding: 0upx 30upx 40upx 30upx;
+	/* #endif */
+	/* #ifndef MP */
+	padding: 120upx 30upx 40upx 30upx;
+	/* #endif */
+	background-color: #ffd655;
+	background: url(http://122.152.205.72:88/group1/M00/00/03/CpoxxFwu_1OAYFAIAAAzO_Q1tPg693.png) repeat;
+	display: flex;
+}
+.face{
+	width: 120upx;
+	height: 120upx;
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+.info-wrapper{
+	width: 80%;
+	margin-left: 40upx;
+	display: flex;
+	flex-direction: column;
+}
+.nickname{
+	color: #6a5018;
+	font-size: 18px;
+	font-weight: 600;
+}
+.regis-login{
+	margin: 30upx 0 0 60upx;
+}
+.nav-info{
+	color: #a38e62;
+	font-size: 14px;
+	margin-top: 10upx;
+}
+.set-wapper{
+	display: flex;
+	justify-content: flex-end;
+	width: 15%;
+}
+.setting{
+	width: 40upx;
+	height: 40upx;
+}

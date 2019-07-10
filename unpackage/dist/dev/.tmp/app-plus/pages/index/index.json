@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "titleNView": false,
+  "usingComponents": {
+    "trailer-starts": "/components/trailerStarts"
+  }
+}

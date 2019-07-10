@@ -1,0 +1,129 @@
+/* 轮播图 */
+.carouselBox{
+	width: 100%;
+	height: 440upx;
+}
+.swiper-navigator,
+.carouselImg{
+	width: 100%;
+	height: 100%;
+}
+
+/* 内容块 */
+.block-wrapper{
+	margin: 12upx 0;
+	padding: 20upx;
+}
+
+/* 二级标题 */
+.sec-title-wapper{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 20upx;
+}
+.sec-ico{
+	width: 30upx;
+	height: 30upx;
+	margin-top: 10upx;
+}
+.sec-title{
+	font-size: 20px;
+	margin-left: 20upx;
+	font-weight: 600;
+}
+
+/* 热门超级英雄海报 */
+.poster-content-wrapper{
+	white-space: nowrap;
+	width: 100%;
+}
+.single-poster{
+	/* padding-top: 30upx; */
+}
+.scroll-view-item{
+	display: inline-block;
+	margin: 0 10upx;
+}
+.moviePoster{
+	width: 200upx;
+	height: 270upx;
+}
+.movieName{
+	margin-top: 6upx;
+	width: 200upx;
+	font-size: 16px;
+	font-weight: 400;
+	white-space: no-nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* 热门超级英雄预告 */
+.trailer-content-wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* padding-top: 30upx; */
+}
+.single-trailer{
+	margin-top: 10upx;
+	width: 350upx;
+	height: 220upx;
+}
+
+/* 猜你喜欢 */
+.single-recommend{
+	display: flex;
+	justify-content: space-between;
+	margin: 10upx 0;
+}
+.recommend-left{
+	
+}
+.recommend-img{
+	width: 180upx;
+	height: 240upx;
+}
+.recommend-center{
+	width: 320upx;
+	height: 240upx;
+	font-size: 14px;
+	color: #808080;
+}
+.recommend-name{
+	font-size: 18px;
+	color: black;
+	width: 320upx;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.recommend-basicInfo{
+	
+}
+.recommend-releaseDate{
+	
+}
+
+.recommend-right{
+	width: 180upx;
+	height: 220upx;
+	border-left: 4upx dashed #dbdbda;
+	/* text-align: center; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.recommend-zan-img{
+	width: 40upx;
+	height: 40upx;
+}
+.recommend-zan-text{
+	font-size: 14px;
+	color: #feab2a;
+}
+.animation-opacity{
+	opacity: 0;
+}

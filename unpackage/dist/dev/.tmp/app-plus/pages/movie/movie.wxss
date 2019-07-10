@@ -1,0 +1,157 @@
+page{
+	background-color: #F7F4F9;
+}
+/* video */
+.movieTrailerSource{
+	width: 100%;
+	height: 440rpx;
+}
+/* info */
+.movieInfo{
+	padding: 40rpx 20rpx;
+}
+.movieInfo{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.moviePoster image{
+	width: 280rpx;
+	height: 380rpx;
+}
+.detail{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding-left: 20rpx;
+}
+.detail-title{
+	font-size: 30px;
+}
+.detail-box{
+	padding: 8rpx 0;
+	font-size: 14px;
+	color: #A9A9A9;
+}
+.detail-score{
+	-webkit-box-shadow: 0rpx 0rpx 10rpx 1rpx #dedede;
+	        box-shadow: 0rpx 0rpx 10rpx 1rpx #dedede;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 20rpx;
+}
+.score-box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	/* justify-content: center; */
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.score-text{
+	color: #808080;
+	font-size: 12px;
+}
+.score-num{
+	color: #feab2a;
+	font-size: 26px;
+	font-weight: 600;
+	margin-top: 10rpx;
+}
+.score-star{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding-left: 40rpx;
+}
+.score-prisedCounts{
+	color: #808080;
+	font-size: 12px;
+}
+.line-wrapper{
+	padding: 0 10rpx;
+}
+.line{
+	height: 2rpx;
+	background-color: #dbdbda;
+}
+/* plotDesc / plotPics */
+.sec-title{
+	color: #a9a9a9;
+	font-size: 14px;
+	padding: 10rpx 0;
+}
+.conten-box{
+	padding: 0 20rpx 30rpx 20rpx;
+}
+.plotDesc-box,
+.plotPics-box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding-top: 20rpx;
+}
+.plotDesc-title{
+}
+.plotDesc-text{
+	font-size: 16px;
+}
+/* plotPics */
+.plotPics-pic-wrapper{
+	white-space: nowrap;
+	width: 100%;
+}
+.plotPics-single{
+	display: inline-block;
+	margin-right: 10rpx;
+}
+.plotPics-pic{
+	width: 220rpx;
+	height: 320rpx;
+}
+/* errorTip */
+.errorTip{
+	width: 300rpx;
+	height: 200rpx;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	text-align: center;
+}
+
